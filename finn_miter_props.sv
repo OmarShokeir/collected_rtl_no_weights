@@ -52,7 +52,7 @@ module finn_miter_props(
 	    assumptions()
 
 	    |->
-	    ##[1:50] //235 > 117 >> 68
+	    ##[1:50] //252 > 117 >> 68
 	    (m_axis_0_tdata_golden != m_axis_0_tdata_faulty);
 
 	endproperty
@@ -74,7 +74,7 @@ module finn_miter_props(
         |->
         (
             (m_axis_0_tdata_golden == m_axis_0_tdata_faulty)
-        //)[*1:235];
+        //)[*1:252];
         )[*1:100];
 
     endproperty
