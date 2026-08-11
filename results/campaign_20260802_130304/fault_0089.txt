@@ -1,0 +1,72 @@
+Faulted signal:
+golden.finn_design_i.MVAU_hls_1.MVAU_hls_1.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.mac_muladd_2ns_2s_4s_5_4_1_U61.MVAU_hls_1_mac_muladd_2ns_2s_4s_5_4_1_DSP48_0_U.a_reg ==
+
+# 
+# OneSpin 360 Message Log
+#  version      = 2026.2
+#  build_date   = May 28 2026 13:57:36
+#  license_mode = qos
+#  mgls         = 5.1.0
+#  tool         = onespin
+#  platform     = Linux_x86_64
+#  os           = Linux
+#  os_version   = 5.15.0-186-generic
+#  host         = frascati
+# 
+-I- Logging messages into '/import/lab/users/shokeir/Schreibtisch/collected_rtl_no_weights/results/campaign_20260802_130304/fault_0089.txt'.
+-I- Consider using the Questa Orchestrator with '-orchestrator questa' for a potential speed up.
+-I- Preparing assertion 'sva/finn_checker/output_preserved_a'
+-I- Examination window for 'sva/finn_checker/output_preserved_a': [t+0,t+234]
+-I- Size of assertion 'sva/finn_checker/output_preserved_a': Vars(244625) Nodes(10372220)
+-I- Preparing assertion 'sva/finn_checker/output_preserved_a' (Stage 1)
+-I- Preparing assertion 'sva/finn_checker/output_preserved_a' (Stage 2)
+-I- Preparing assertion 'sva/finn_checker/output_preserved_a' cluster(s) (Stage 3), size 1
+-I- Size of assertion 'sva/finn_checker/output_preserved_a': Nodes(0) Inputs(0) Flops(0) TransitiveFlops(0)
+-I- Checking constraints.
+-I- Checking assertion 'sva/finn_checker/output_preserved_a'
+-I- Prv - Initially: Checking sva/finn_checker/output_preserved_a (4.00 sec, 45759.20 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     scheduled       0/1            0.00 sec     0.00 MB  open / not yet started
+    approver1:1   0     scheduled       0/1            0.00 sec     0.00 MB  open / not yet started
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Prv - Finally: sva/finn_checker/output_preserved_a holds (18.00 sec, 47583.50 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     done            1/1            6.00 sec 47583.50 MB  open
+    approver1:1   0     done            1/1            6.00 sec 47583.50 MB  hold
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-R- Assertion 'sva/finn_checker/output_preserved_a' holds (checked in 18.00 sec, 47583 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     done            1/1            6.00 sec 47583.50 MB  open
+    approver1:1   0     done            1/1            6.00 sec 47583.50 MB  hold
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Finished assertion 'sva/finn_checker/output_preserved_a' (Stage 3)
+-I- Finished assertion 'sva/finn_checker/output_preserved_a' (Stage 2)
+-I- Finished assertion 'sva/finn_checker/output_preserved_a' (Stage 1)
+=============================================================================================================================================================================
+  report created on Mon Aug 03 22:25:08 CEST 2026
+=============================================================================================================================================================================
+assertion object                                                                 type         result               validity     unresolved   prover       runtime     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sva/finn_checker/output_preserved_a                                              assertion    hold                 up_to_date                approver1:1  00:00:19    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+Faulted signal:
+golden.finn_design_i.MVAU_hls_0.MVAU_hls_0.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_30.add_ln840_91_reg_31503 ==
+
+# 
+# OneSpin 360 Message Log
+#  version      = 2026.2
+#  build_date   = May 28 2026 13:57:36
+#  license_mode = qos
+#  mgls         = 5.1.0
+#  tool         = onespin
+#  platform     = Linux_x86_64
+#  os           = Linux
+#  os_version   = 5.15.0-186-generic
+#  host         = frascati
+# 
+-I- Logging messages into '/import/lab/users/shokeir/Schreibtisch/collected_rtl_no_weights/results/campaign_20260802_130304/fault_0152.txt'.
+-I- Consider using the Questa Orchestrator with '-orchestrator questa' for a potential speed up.
+-I- Preparing assertion 'sva/finn_checker/output_preserved_a'
+-I- Examination window for 'sva/finn_checker/output_preserved_a': [t+0,t+234]

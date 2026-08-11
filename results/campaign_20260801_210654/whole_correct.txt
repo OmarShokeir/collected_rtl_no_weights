@@ -1,0 +1,45 @@
+Fault #1
+golden.finn_design_i.MVAU_hls_2.MVAU_hls_2.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.local_temp_V_reg_3179_pp0_iter2_reg ==
+
+Fault #3
+golden.finn_design_i.MVAU_hls_0.MVAU_hls_0_wstrm.inst.core.config_if.ip_wen ==
+
+Fault #5
+golden.finn_design_i.StreamingFIFO_rtl_0.inst.impl.srl ==
+
+Fault #7
+golden.finn_design_i.MVAU_hls_2.MVAU_hls_2.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.mac_muladd_2ns_2s_4s_5_4_1_U61.MVAU_hls_2_mac_muladd_2ns_2s_4s_5_4_1_DSP48_0_U.a_reg ==
+
+Fault #9
+golden.finn_design_i.MVAU_hls_1.MVAU_hls_1.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.r_V_54_reg_3939_pp0_iter2_reg ==
+
+Fault #11
+golden.finn_design_i.MVAU_hls_2.MVAU_hls_2.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.add_ln840_17_reg_4184 ==
+
+Fault #13
+golden.finn_design_i.MVAU_hls_2.MVAU_hls_2.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.r_V_42_reg_3814_pp0_iter2_reg ==
+
+Fault #15
+golden.finn_design_i.MVAU_hls_2.MVAU_hls_2.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.r_V_46_reg_3844_pp0_iter2_reg ==
+
+Fault #17
+golden.finn_design_i.MVAU_hls_2.MVAU_hls_2.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.mac_muladd_2ns_2s_4s_5_4_1_U36.MVAU_hls_2_mac_muladd_2ns_2s_4s_5_4_1_DSP48_0_U.m_reg ==
+
+Fault #19
+golden.finn_design_i.MVAU_hls_1.MVAU_hls_1.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.r_V_61_reg_3989_pp0_iter2_reg ==
+
+Fault #21
+golden.finn_design_i.MVAU_hls_1.MVAU_hls_1.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.mac_muladd_2ns_2s_4s_5_4_1_U57.MVAU_hls_1_mac_muladd_2ns_2s_4s_5_4_1_DSP48_0_U.m_reg ==
+
+Fault #23
+golden.finn_design_i.MVAU_hls_2.MVAU_hls_2.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.local_temp_V_107_reg_3399 ==
+
+Fault #25
+golden.finn_design_i.MVAU_hls_1.MVAU_hls_1.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.local_temp_V_100_reg_3399 ==
+
+Fault #27
+golden.finn_design_i.MVAU_hls_1.MVAU_hls_1_wstrm.inst.core.mem.Data2 ==
+
+Fault #29
+golden.finn_design_i.MVAU_hls_1.MVAU_hls_1.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.r_V_50_reg_3909_pp0_iter2_reg ==
+

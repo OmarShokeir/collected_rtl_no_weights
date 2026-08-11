@@ -1,0 +1,197 @@
+Permanent stuck-at-1 fault:
+faulty.finn_design_i.MVAU_hls_1.MVAU_hls_1.inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_36.r_V_50_reg_3909_pp0_iter2_reg
+
+# 
+# OneSpin 360 Message Log
+#  version      = 2026.2
+#  build_date   = May 28 2026 13:57:36
+#  license_mode = qos
+#  mgls         = 5.1.0
+#  tool         = onespin
+#  platform     = Linux_x86_64
+#  os           = Linux
+#  os_version   = 5.15.0-186-generic
+#  host         = frascati
+# 
+-I- Logging messages into '/import/lab/users/shokeir/Schreibtisch/collected_rtl_no_weights/results/campaign_20260801_210654/fault_0029.txt'.
+-I- Consider using the Questa Orchestrator with '-orchestrator questa' for a potential speed up.
+-I- Preparing assertion 'sva/finn_checker/output_preserved_a'
+-I- Examination window for 'sva/finn_checker/output_preserved_a': [t+0,t+234]
+-I- Size of assertion 'sva/finn_checker/output_preserved_a': Vars(245638) Nodes(10897852)
+-I- Preparing assertion 'sva/finn_checker/output_preserved_a' (Stage 1)
+-I- Preparing assertion 'sva/finn_checker/output_preserved_a' (Stage 2)
+-I- Preparing assertion 'sva/finn_checker/output_preserved_a' cluster(s) (Stage 3), size 1
+-I- Size of assertion 'sva/finn_checker/output_preserved_a': Nodes(12770200) Inputs(7705) Flops(9603) TransitiveFlops(7705)
+-I- Checking constraints.
+-I- Checking assertion 'sva/finn_checker/output_preserved_a'
+-I- Prv - Initially: Checking sva/finn_checker/output_preserved_a (5.00 sec, 47002.00 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     scheduled       0/1            0.00 sec     0.00 MB  open / not yet started
+    approver1:1   0     scheduled       0/1            0.00 sec     0.00 MB  open / not yet started
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Prv - Intermediate: Checking sva/finn_checker/output_preserved_a (01 min 12 sec, 61445.80 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     running         0/1           30.00 sec 61445.80 MB  open
+    approver1:1   0     running         0/1           30.00 sec 61445.80 MB  open
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Prv - Intermediate: Checking sva/finn_checker/output_preserved_a (02 min 12 sec, 67539.00 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     running         0/1       01 min 31 sec 67539.00 MB  open
+    approver1:1   0     running         0/1       01 min 31 sec 67539.00 MB  open
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Prv - Intermediate: Checking sva/finn_checker/output_preserved_a (03 min 14 sec, 69926.00 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     running         0/1       02 min 32 sec 69926.00 MB  open
+    approver1:1   0     running         0/1       02 min 32 sec 69926.00 MB  open
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Prv - Intermediate: Checking sva/finn_checker/output_preserved_a (04 min 15 sec, 69926.00 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     running         0/1       03 min 33 sec 69926.00 MB  open
+    approver1:1   0     running         0/1       03 min 33 sec 69926.00 MB  open
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Prv - Intermediate: Checking sva/finn_checker/output_preserved_a (05 min 16 sec, 69926.00 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     running         0/1       04 min 34 sec 69926.00 MB  open
+    approver1:1   0     running         0/1       04 min 34 sec 69926.00 MB  open
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Prv - Intermediate: Checking sva/finn_checker/output_preserved_a (06 min 16 sec, 69926.00 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     running         0/1       05 min 34 sec 69926.00 MB  open
+    approver1:1   0     running         0/1       05 min 34 sec 69926.00 MB  open
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Prv - Intermediate: Checking sva/finn_checker/output_preserved_a (07 min 18 sec, 69926.00 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     running         0/1       06 min 36 sec 69926.00 MB  open
+    approver1:1   0     running         0/1       06 min 36 sec 69926.00 MB  open
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Prv - Intermediate: Checking sva/finn_checker/output_preserved_a (08 min 19 sec, 69926.00 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     running         0/1       07 min 37 sec 69926.00 MB  open
+    approver1:1   0     running         0/1       07 min 37 sec 69926.00 MB  open
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Prv - Intermediate: Checking sva/finn_checker/output_preserved_a (09 min 20 sec, 69926.00 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     running         0/1       08 min 38 sec 69926.00 MB  open
+    approver1:1   0     running         0/1       08 min 38 sec 69926.00 MB  open
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Prv - Finally: Unable to prove sva/finn_checker/output_preserved_a (external interrupt) (09 min 49 sec, 69926.00 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     done            1/1       09 min 03 sec 69926.00 MB  open / external interrupt
+    approver1:1   0     done            1/1       09 min 01 sec 69926.00 MB  open / external interrupt
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-R- Unable to prove assertion 'sva/finn_checker/output_preserved_a' (external_interrupt) (09 min 49 sec, 69926 MB used)
+    Prover        Group Status      Steps/Max.        Real Time   Mem. Peak  Result / Reason
+    ----------------------------------------------------------------------------------------------------
+    approver1:0   0     done            1/1       09 min 03 sec 69926.00 MB  open / external interrupt
+    approver1:1   0     done            1/1       09 min 01 sec 69926.00 MB  open / external interrupt
+    approver2     0     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver3     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    approver4     1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover1    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    disprover3    1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover1       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+    prover2       1     skipped         0/0            0.00 sec     0.00 MB  open / not yet started
+-I- Finished assertion 'sva/finn_checker/output_preserved_a' (Stage 3)
+-I- Finished assertion 'sva/finn_checker/output_preserved_a' (Stage 2)
+-I- Finished assertion 'sva/finn_checker/output_preserved_a' (Stage 1)
+-W- Command interrupted by user.
+Interrupted.
+-E- Can not source script '/import/lab/users/shokeir/Schreibtisch/collected_rtl_no_weights/run_perm_stuck_at.tcl'.
+    (enter trace on "stop_message_log")
+    ("for" body line 133)
+    invoked from within
+"for {set i 0} {$i < [expr {[llength $original_assumptions]-1}]} {incr i} {
+    set l1 [string trim [lindex $original_assumptions $i]]
+    set l2 [str..."
+    (file "run_perm_stuck_at.tcl" line 33)
+clear
+ambiguous command name "clear": clear_compare_design_results clear_design clear_lint_source clear_screen
+    while executing
+"clear"
+cls
+invalid command name "cls"
+    while executing
+"cls"
+clear_screen 
+ls
+summarize_gen_xlx.py generate_assumptions_func.py assumptions.sv default.onespin run_perm_stuck_at.tcl process_true_signals.py flatten.py output_signals collected_rtl_2 results run_check.tcl run_check_with_log.tcl assumptions_template.sv get_states.tcl TRASH shuffle_assumptions_order.py finn_miter_props.sv flattened fault.sv fault_template.sv
+source run_check_with_log.tcl 
+Campaign directory:
+  results/campaign_20260802_123316
