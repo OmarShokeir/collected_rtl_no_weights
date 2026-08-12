@@ -2,11 +2,11 @@
 # Configuration
 # -----------------------
 
-set api_key "re_Kwm4Wzps_NL3oPwbeNdXy21CBUH3euxTS"
+set api_key "TEST_API_KEY"
 
 proc run_property {prop api_key} {
 
-    set full_prop "sva/finn_checker/$prop"
+    set full_prop "sva/mvau0_checker/$prop"
 
     puts "====================================="
     puts "Running property: $full_prop"
@@ -65,7 +65,7 @@ proc run_property {prop api_key} {
 # -----------------------
 
 #run_property "output_diff_exists_a" $api_key
-run_property "output_preserved_a" $api_key
+run_property "layer0_output_preserved_a" $api_key
 #run_property "mvau_weight_fault_propagates_a" $api_key
 
 puts "All properties completed."

@@ -74,8 +74,8 @@ module finn_miter_props(
         |->
         (
             (m_axis_0_tdata_golden == m_axis_0_tdata_faulty)
-        //)[*1:252];
-        )[*1:100];
+        )[*1:252];
+        //)[*1:100];
 
     endproperty
 
